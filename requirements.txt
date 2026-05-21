@@ -1,0 +1,10 @@
+# Agentic AI 워크샵 — 실습 의존성
+# 설치:  pip install -r requirements.txt
+
+google-genai>=1.0        # Google Gemini SDK (무료 API 티어 사용)
+python-dotenv>=1.0       # .env 파일에서 API 키 로드
+jupyterlab>=4.0          # 실습 노트북 실행 환경
+
+# (선택) 다른 LLM 제공자를 쓰고 싶을 때 주석 해제
+# anthropic>=0.40        # Claude API
+# openai>=1.0            # OpenAI API

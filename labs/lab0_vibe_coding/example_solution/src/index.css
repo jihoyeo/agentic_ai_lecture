@@ -1,0 +1,21 @@
+/* 전체 화면을 꽉 채우고 스크롤은 없앤다 (BUILD_SPEC §1). */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo',
+    'Pretendard', 'Malgun Gothic', sans-serif;
+  color: #1b1f23;
+  background: #0d1117;
+}

@@ -1,0 +1,20 @@
+[
+ { "id": "SEO", "name": "Seoul",       "name_ko": "서울",   "lat": 37.5665, "lon": 126.9780 },
+ { "id": "INC", "name": "Incheon",     "name_ko": "인천",   "lat": 37.4563, "lon": 126.7052 },
+ { "id": "SUW", "name": "Suwon",       "name_ko": "수원",   "lat": 37.2636, "lon": 127.0286 },
+ { "id": "SEG", "name": "Seongnam",    "name_ko": "성남",   "lat": 37.4200, "lon": 127.1260 },
+ { "id": "GYG", "name": "Goyang",      "name_ko": "고양",   "lat": 37.6584, "lon": 126.8320 },
+ { "id": "YIG", "name": "Yongin",      "name_ko": "용인",   "lat": 37.2411, "lon": 127.1770 },
+ { "id": "BUC", "name": "Bucheon",     "name_ko": "부천",   "lat": 37.5036, "lon": 126.7660 },
+ { "id": "ANS", "name": "Ansan",       "name_ko": "안산",   "lat": 37.3219, "lon": 126.8309 },
+ { "id": "ANY", "name": "Anyang",      "name_ko": "안양",   "lat": 37.3943, "lon": 126.9568 },
+ { "id": "UJB", "name": "Uijeongbu",   "name_ko": "의정부", "lat": 37.7381, "lon": 127.0337 },
+ { "id": "GMP", "name": "Gimpo",       "name_ko": "김포",   "lat": 37.6239, "lon": 126.7144 },
+ { "id": "PJU", "name": "Paju",        "name_ko": "파주",   "lat": 37.7599, "lon": 126.7800 },
+ { "id": "SIH", "name": "Siheung",     "name_ko": "시흥",   "lat": 37.3799, "lon": 126.8031 },
+ { "id": "GPO", "name": "Gunpo",       "name_ko": "군포",   "lat": 37.3679, "lon": 126.9460 },
+ { "id": "GCH", "name": "Gwacheon",    "name_ko": "과천",   "lat": 37.4292, "lon": 126.9870 },
+ { "id": "HNM", "name": "Hanam",       "name_ko": "하남",   "lat": 37.5393, "lon": 127.2145 },
+ { "id": "GWM", "name": "Gwangmyeong", "name_ko": "광명",   "lat": 37.4784, "lon": 126.8640 },
+ { "id": "PTK", "name": "Pyeongtaek",  "name_ko": "평택",   "lat": 36.9907, "lon": 127.0857 }
+]

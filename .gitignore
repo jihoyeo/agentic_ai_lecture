@@ -1,0 +1,23 @@
+# 환경
+.env
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node / 빌드 산출물 (lab0 example_solution)
+node_modules/
+dist/
+*.log
+
+# 에디터
+.obsidian/
+.vscode/
+
+# OS
+.DS_Store
