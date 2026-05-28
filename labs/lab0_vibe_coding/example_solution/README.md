@@ -41,13 +41,15 @@ cp .env.example .env   # 그리고 .env 안의 두 키를 채운다
 | §1 화면 레이아웃 (지도 65% / 채팅 35%) | `src/App.jsx`, `src/App.css` |
 | §2 데이터 (cities 18, flows 48) | `src/data/*.json` |
 | §3 지도 — VWorld 베이스맵 + 도시 점 + 흐름 곡선 | `src/components/MapView.jsx` |
-| §4 채팅 — AI 도우미 UI / 대화 흐름 | `src/components/ChatPanel.jsx` |
-| §4 AI 의 역할·동작·응답 규칙 = **시스템 프롬프트** | `src/lib/chat.js` ▶ `buildSystemPrompt()` |
-| §4-5 계산 정확도 — JS 로 합계·최댓값 미리 계산 | `src/lib/stats.js` |
+| §4 AI Agent — 역할·원칙 = **시스템 프롬프트** | `src/lib/chat.js` ▶ `SYSTEM_PROMPT` |
+| §4-2 **능력 5개 = 도구 5개** (`find_city`, `get_flow`, `get_round_trip`, `get_city_totals`, `get_top_flows`) | `src/lib/tools.js` |
+| §4-3 **에이전트 루프** — 추론→행동→관찰 반복 | `src/lib/agent.js` ▶ `runAgent()` |
+| §4 채팅 UI + 도구 호출 트레이스 표시 | `src/components/ChatPanel.jsx` |
+| §4-5 답변의 도시를 지도에서 강조 | `src/components/ChatPanel.jsx` ▶ `findMentionedCities()`, `extractCityIds()` |
 | §5 Gemini 키 보안 — Vite 프록시 경유 | `vite.config.js` ▶ `geminiProxyPlugin` |
 
-> `lab1`~`lab5` 에서 뜯어볼 **시스템 프롬프트 · LLM 호출 · 데이터 처리** 가
-> 바로 `src/lib/chat.js` 와 `src/lib/stats.js` 입니다.
+> `lab1`~`lab3` 에서 뜯어볼 **LLM 호출 · 도구(tool use) · 에이전트 루프** 가
+> 각각 `chat.js` / `tools.js` / `agent.js` 입니다. 한 파일에 한 개념.
 
 ---
 

@@ -125,6 +125,33 @@
   margin-bottom: 3px;
 }
 
+/* 도구 호출 추적 — 학생이 "에이전트가 무얼 부르고 있나" 보게 한다 */
+.bubble__trace {
+  margin-top: 8px;
+  font-size: 11.5px;
+  color: #57606a;
+}
+
+.bubble__trace summary {
+  cursor: pointer;
+  user-select: none;
+  color: #1f6feb;
+}
+
+.bubble__trace-row {
+  margin-top: 4px;
+  padding-left: 8px;
+  border-left: 2px solid #d0d7de;
+  word-break: break-all;
+}
+
+.bubble__trace code {
+  background: #f0f3f6;
+  padding: 1px 4px;
+  border-radius: 3px;
+  font-size: 11px;
+}
+
 /* 입력 중 점 3개 애니메이션 */
 .typing {
   display: inline-flex;
